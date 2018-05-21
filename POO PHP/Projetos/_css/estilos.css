@@ -1,0 +1,63 @@
+html {
+    font: 15pt Arial;
+}
+
+body{
+	background: #000;
+}
+
+div::before {
+	content: "___________________________________________________________________________";
+	border: black;
+    font: 10pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #273747;
+    padding: 5px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 560px;
+}
+
+div {
+    background-color: rgba(255,255,255,.8);
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 550px;
+    min-height:300px;
+}
+
+a {
+    color: #273747;
+    text-decoration: none;
+    font-weight: bold;
+    font: 11pt Helvetica;
+}
+
+h3:hover {
+    text-decoration: underline;
+    color: #000a;
+}
+
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}
+
+.botao {
+	background-color: #273747;
+	color: white;
+	padding: 8px;
+	box-shadow: 2px 2px 1px #aaaaaa;
+}
+
+.footer{
+    font-size: 10pt;
+    display: block;
+    position: relative;
+    top: 10px;
+    padding-bottom: 10px;
+    padding-top: 90px;
+}
